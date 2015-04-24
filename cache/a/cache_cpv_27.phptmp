@@ -1,0 +1,36 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    8 => 
+    array (
+      'adsid' => '8',
+      'imageurl' => '/a/2012-11-07/135227716845598144.jpg',
+      'alt' => '',
+      'url' => 'http://as.8090yqy.com',
+      'adstypeid' => '27',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '200',
+      'height' => '200',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '5',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpv',
+      'uid' => '11',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '1111',
+    ),
+  ),
+  1 => 1,
+  2 => 8,
+);
+
+$cache_name       = 'cpv_27';
+$cache_time       = 1352277168;
+$cache_complete   = true;
+

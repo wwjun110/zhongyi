@@ -1,0 +1,58 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    47 => 
+    array (
+      'adsid' => '47',
+      'imageurl' => '/a/2012-11-16/135305261771542969.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '7',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '960',
+      'height' => '90',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '15',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    48 => 
+    array (
+      'adsid' => '48',
+      'imageurl' => '/a/2012-11-16/135305263458469238.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '7',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '960',
+      'height' => '90',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '18',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+  ),
+  1 => 2,
+  2 => 95,
+);
+
+$cache_name       = 'cpc_7_960_90';
+$cache_time       = 1353052634;
+$cache_complete   = true;
+

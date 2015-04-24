@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '33',
+  'siteid' => '11',
+  'uid' => '897',
+  'plantype' => 'cpc',
+  'sitetype' => '111',
+  'siteurl' => 'www.168diany.com,168diany.com',
+  'adstypeid' => '7',
+  'framework' => 'script',
+  'width' => '960',
+  'height' => '60',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '33';
+$cache_time       = 1354357726;
+$cache_complete   = true;
+

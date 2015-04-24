@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '18',
+  'siteid' => '6',
+  'uid' => '894',
+  'plantype' => 'cpm',
+  'sitetype' => '128',
+  'siteurl' => 'www.voler723.com,voler723.com',
+  'adstypeid' => '9',
+  'framework' => 'script',
+  'width' => '0',
+  'height' => '0',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '18';
+$cache_time       = 1354882051;
+$cache_complete   = true;
+

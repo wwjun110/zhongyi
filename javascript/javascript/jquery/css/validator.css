@@ -1,0 +1,39 @@
+.onShow{
+color:#AAAAAA;
+margin-left:10px;
+padding-top:3px;
+}
+.onFocus{
+background:#FFF2E9 url(../images/reg2.gif) no-repeat scroll 5px 50%;
+border:1px solid #FFBABE;
+color:#000000;
+height:14px !important;
+margin:0px 0pt 0pt 0px !important;
+padding:4px 5px 2px 25px !important;
+
+}
+.onError{
+	background:#FFF2E9 url(../images/reg3.gif) no-repeat scroll 5px 50%;
+	border:1px solid #FF6600;
+	color:#000000;
+	line-height:14px;
+	height:14px !important;
+	margin-top: 0px;
+	margin-right: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 4px;
+	padding-top: 8px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 25px;
+}
+.onSuccess{
+background:#E6FFE6 url(../images/reg4.gif) no-repeat scroll 5px 45%;
+color:#000000;
+height:14px !important;
+line-height:14px;
+margin:0px 0pt 0pt 0px !important;
+padding:4px 5px 2px 25px !important;
+
+}
+.onLoad{background:#E9FFEB url(../images/loading.gif) no-repeat 3px 3px; padding-left:25px; height:20px; line-height:20px;} 

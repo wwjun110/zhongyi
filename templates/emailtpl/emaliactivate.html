@@ -1,0 +1,46 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+<link href="http://{siteurl}/templates/emailtpl/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body style="background-image: url('http://{siteurl}/templates/emailtpl/images/body_bg.jpg');background-repeat: repeat-x;background-color: #F4EEE7;background-position: top;">
+<div class="main">
+<div class="logo"><a href="http://{siteurl}" target="_blank"><img src="http://{siteurl}/templates/emailtpl/images/logo.gif"  border="0" /></a></div>
+<div class="center">
+<div class="xinxi">
+  <p>
+    <strong>{username}，您好:</strong>    <br />
+    <br />
+这封信是由 {sitename} 发送的。
+    <br /> <br />
+您收到这封邮件，是因为在我们网站的新用户注册， 使用
+了您的地址。如果您并没有访问过我们的网站，或没有进行上述操作，请忽
+略这封邮件。您不需要退订或进行其他进一步的操作。	
+    <br />
+  </p>
+  </div>
+  <div><p>
+----------------------------------------------------------------------<br />
+帐号激活说明<br />
+----------------------------------------------------------------------<br />
+
+您是我们网站的新用户，在注册时使用了您的 Email 地址，我们需要对您的地址有效性进行验证以避免垃圾邮件或地址被滥用。<br />
+
+您只需点击下面的链接即可激活您的帐号：<br /><br />
+
+<a href='http://{siteurl}/index.php?action=index&actiontype=activate&username={username}&id={activateid}'target='_blank'>http://{siteurl}/index.php?action=index&actiontype=activate&username={username}&id={activateid}</a> <br />
+<br />
+<br />
+
+感谢您的访问，祝您使用愉快！  </p>    
+    <br /><br />
+  <p>此致<br><br>
+
+	 管理团队<br><br><a href='http://{siteurl}'target='_blank'>http://{siteurl}</a><br /> <br><br>
+      </p><p>--------------------------------------------------------------------</p>
+<p>注：此邮件由系统自动发送，请勿回复</p>    
+  <br />
+  </div>
+</div> 
+</div>
+</body>

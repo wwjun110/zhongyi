@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '19',
+  'siteid' => '8',
+  'uid' => '895',
+  'plantype' => 'cpc',
+  'sitetype' => '131',
+  'siteurl' => 'www.djkkkk.com,djkkkk.com',
+  'adstypeid' => '11',
+  'framework' => 'script',
+  'width' => '270',
+  'height' => '200',
+  'viewtype' => '1',
+  'viewadsid' => '42',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '19';
+$cache_time       = 1354099142;
+$cache_complete   = true;
+

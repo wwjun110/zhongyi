@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '15',
+  'siteid' => '3',
+  'uid' => '892',
+  'plantype' => 'cpm',
+  'sitetype' => '111',
+  'siteurl' => 'www.movie153.com,movie153.com',
+  'adstypeid' => '9',
+  'framework' => 'script',
+  'width' => '0',
+  'height' => '0',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '3',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '15';
+$cache_time       = 1355801551;
+$cache_complete   = true;
+

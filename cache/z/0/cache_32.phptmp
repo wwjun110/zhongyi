@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '32',
+  'siteid' => '15',
+  'uid' => '899',
+  'plantype' => 'cpm',
+  'sitetype' => '118',
+  'siteurl' => 'mn5.cc,www.mn5.cc',
+  'adstypeid' => '9',
+  'framework' => 'script',
+  'width' => '0',
+  'height' => '0',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '32';
+$cache_time       = 1354432094;
+$cache_complete   = true;
+

@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '35',
+  'siteid' => '16',
+  'uid' => '903',
+  'plantype' => 'cpm',
+  'sitetype' => '127',
+  'siteurl' => 'www.baidu.com,baidu.com',
+  'adstypeid' => '9',
+  'framework' => 'script',
+  'width' => '0',
+  'height' => '0',
+  'viewtype' => '1',
+  'viewadsid' => '31',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '35';
+$cache_time       = 1354720266;
+$cache_complete   = true;
+

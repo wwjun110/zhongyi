@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Twitter style suggestion box samples</title>
+    <link rel="stylesheet" href="style/mainStyle.css" type="text/css" />
+    <link rel="stylesheet" href="style/tipBoxStyle.css" type="text/css" />
+
+    <script language="javascript" type="text/javascript" src="javascript/jquery.js"></script>
+
+    <script language="javascript" type="text/javascript" src="javascript/jquery.inputTip.js"></script>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+            // Setting up the suggestion box
+            $("#txtFullName").inputTip({
+                // Text displayed when the input passes the validation
+                goodText: "Ehi, it looks good!",
+                // Text displayed when the input doesn't pass the validation
+                badText: "Ouch, it looks empty!",
+                // Text displayed as a tip when the input field is focused
+                tipText: "Here, just input something",
+                /* Function called to validate the input. It should fire "callback" with the following parameters
+                *  First parameter:
+                *  - 0: validation failed
+                *  - 1: validation succeeded
+                *  - 2: show the tip text
+                * Second parameter: optional text to display instead of the standard text */
+                validateText: function(inputValue, callback) {
+                    // Checking if the input field contains text.
+                    if (inputValue.length > 0) callback(1);
+                    else callback(0);
+                },
+                // True if the validation should be performed on every key/up event (false by default)
+                validateInRealTime: false
+            });
+
+            // Setting up the suggestion box
+            $("#txtEmail").inputTip({
+                // Text displayed when the input passes the validation
+                goodText: "Ehi, nice email!",
+                // Text displayed when the input doesn't pass the validation
+                badText: "Ouch, it doesn't look like an email!",
+                // Text displayed as a tip when the input field is focused
+                tipText: "Type an email address",
+                /* Function called to validate the input. It should fire "callback" with the following parameters
+                *  First parameter:
+                *  - 0: validation failed
+                *  - 1: validation succeeded
+                *  - 2: show the tip text
+                * Second parameter: optional text to display instead of the standard text */
+                validateText: function(inputValue, callback) {
+                // Checking if the input field contains text.
+                    var emailRegexp = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                    if (emailRegexp.test(inputValue)) callback(1);
+                    else callback(0);
+                },
+                // True if the validation should be performed on every key/up event (false by default)
+                validateInRealTime: false
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <div id="mainContainer">
+        <h1>
+            <a href="http://steadycreations.wordpress.com" target="_blank">SteadyCreations</a></h1>
+        <h2>
+            "Twitter Sign-Up" style suggestion box demo</h2>
+        <p>
+            Simply focus, type some text and un-focus the input fields to see it in action</p>
+        <div class="inputRow containerFix">
+            <div class="inputName">
+                <label for="txtFullName">
+                    Type anything</label></div>
+            <div class="inputValue">
+                <input type="text" id="txtFullName" class="txtInput" />
+            </div>
+        </div>
+        <div class="inputRow containerFix">
+            <div class="inputName">
+                <label for="txtEmail">
+                    E-Mail check</label></div>
+            <div class="inputValue">
+                <input type="text" id="txtEmail" class="txtInput" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

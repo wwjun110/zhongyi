@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On  
+RewriteBase /  
+RewriteCond %{HTTP_HOST} ^a.com$ [OR]  
+RewriteCond %{HTTP_HOST} ^www.a.com$  
+RewriteRule ^(.*)$ http://demo.souho.cc/$1 [R=301,L] 
+</IfModule>

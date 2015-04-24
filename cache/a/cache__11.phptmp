@@ -1,0 +1,58 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    41 => 
+    array (
+      'adsid' => '41',
+      'imageurl' => '/a/2012-11-16/135305240748574219.gif',
+      'alt' => '',
+      'url' => 'http://tgn0323.taobao.com',
+      'adstypeid' => '11',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '270',
+      'height' => '200',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '15',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    42 => 
+    array (
+      'adsid' => '42',
+      'imageurl' => '/a/2012-11-16/135305238773967285.gif',
+      'alt' => '',
+      'url' => 'http://tgn0323.taobao.com',
+      'adstypeid' => '11',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '270',
+      'height' => '200',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '18',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+  ),
+  1 => 2,
+  2 => 83,
+);
+
+$cache_name       = '_11';
+$cache_time       = 1355893167;
+$cache_complete   = true;
+

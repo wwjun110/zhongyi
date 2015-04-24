@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '31',
+  'siteid' => '9',
+  'uid' => '195',
+  'plantype' => 'cpc',
+  'sitetype' => '111',
+  'siteurl' => 'www.8090dvd.com,8090dvd.com',
+  'adstypeid' => '11',
+  'framework' => 'script',
+  'width' => '270',
+  'height' => '200',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '31';
+$cache_time       = 1355893167;
+$cache_complete   = true;
+

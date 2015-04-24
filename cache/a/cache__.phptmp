@@ -1,0 +1,12 @@
+<?php
+
+$cache_contents   = array (
+  0 => NULL,
+  1 => NULL,
+  2 => NULL,
+);
+
+$cache_name       = '_';
+$cache_time       = 1354181588;
+$cache_complete   = true;
+

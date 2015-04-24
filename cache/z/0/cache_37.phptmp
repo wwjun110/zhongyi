@@ -1,0 +1,30 @@
+<?php
+
+$cache_contents   = array (
+  'zoneid' => '37',
+  'siteid' => '17',
+  'uid' => '890',
+  'plantype' => 'cpv',
+  'sitetype' => '127',
+  'siteurl' => 'www.xyth.72jz.com,72jz.com',
+  'adstypeid' => '15',
+  'framework' => 'script',
+  'width' => '270',
+  'height' => '200',
+  'viewtype' => '0',
+  'viewadsid' => '',
+  'alternatetype' => '0',
+  'alternateurl' => '',
+  'codestyle' => '',
+  'auditplanid' => NULL,
+  'userstatus' => '2',
+  'sitestatus' => NULL,
+  'insite' => '1',
+  'cpmtime' => '0',
+  'recpm' => '1',
+);
+
+$cache_name       = '37';
+$cache_time       = 1355901524;
+$cache_complete   = true;
+

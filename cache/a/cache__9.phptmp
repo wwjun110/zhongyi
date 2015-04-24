@@ -1,0 +1,58 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    31 => 
+    array (
+      'adsid' => '31',
+      'imageurl' => '',
+      'alt' => '',
+      'url' => 'http://tgn0323.taobao.com',
+      'adstypeid' => '9',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '0',
+      'height' => '0',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '14',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpm',
+      'uid' => '191',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    35 => 
+    array (
+      'adsid' => '35',
+      'imageurl' => '',
+      'alt' => '',
+      'url' => 'http://www.359k.com',
+      'adstypeid' => '9',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '0',
+      'height' => '0',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '17',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpm',
+      'uid' => '191',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+  ),
+  1 => 2,
+  2 => 66,
+);
+
+$cache_name       = '_9';
+$cache_time       = 1355901526;
+$cache_complete   = true;
+

@@ -1,0 +1,58 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    34 => 
+    array (
+      'adsid' => '34',
+      'imageurl' => '',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '26',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '0',
+      'height' => '0',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '14',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpm',
+      'uid' => '191',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    38 => 
+    array (
+      'adsid' => '38',
+      'imageurl' => '',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '26',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '0',
+      'height' => '0',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '17',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpm',
+      'uid' => '191',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+  ),
+  1 => 2,
+  2 => 72,
+);
+
+$cache_name       = 'cpm_26';
+$cache_time       = 1353051129;
+$cache_complete   = true;
+

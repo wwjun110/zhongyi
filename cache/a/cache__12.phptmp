@@ -1,0 +1,102 @@
+<?php
+
+$cache_contents   = array (
+  0 => 
+  array (
+    43 => 
+    array (
+      'adsid' => '43',
+      'imageurl' => '/a/2012-11-16/135305246114736328.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '12',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '120',
+      'height' => '240',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '15',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    45 => 
+    array (
+      'adsid' => '45',
+      'imageurl' => '/a/2012-11-16/135305250139162598.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '12',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '120',
+      'height' => '300',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '15',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    44 => 
+    array (
+      'adsid' => '44',
+      'imageurl' => '/a/2012-11-16/135305248268461914.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '12',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '120',
+      'height' => '240',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '18',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+    46 => 
+    array (
+      'adsid' => '46',
+      'imageurl' => '/a/2012-11-16/135305252242216797.gif',
+      'alt' => '',
+      'url' => 'http://www.8090sese.com',
+      'adstypeid' => '12',
+      'priority' => '1',
+      'htmlcode' => '',
+      'width' => '120',
+      'height' => '300',
+      'checkplan' => 'true',
+      'expire' => '0000-00-00',
+      'planid' => '18',
+      'audit' => 'n',
+      'clearing' => 'week',
+      'plantype' => 'cpc',
+      'uid' => '190',
+      'resuid' => '',
+      'restrictions' => '1',
+      'budget' => '100000',
+    ),
+  ),
+  1 => 4,
+  2 => 178,
+);
+
+$cache_name       = '_12';
+$cache_time       = 1353113415;
+$cache_complete   = true;
+

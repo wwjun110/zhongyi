@@ -1,0 +1,130 @@
+﻿/* HTML Tag */
+* 
+{
+	margin:0;
+	padding:0;
+}
+body, html
+{
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+	top:0;
+}
+body, td, th, textarea, input, select, h2, h3, h4, h5, h6, p
+{
+	font-family: 'Lucida Grande',sans-serif;
+	font-weight: normal;
+	color: #000;
+}
+a 
+{
+	color:#009 !important;
+	text-decoration:none;
+}
+h1 
+{
+	margin-top:50px 0 0 0;
+}
+h2 
+{
+	margin:10px 0 20px 0;
+}
+p 
+{
+	margin-bottom:20px;
+}
+#mainContainer 
+{
+	padding-left:50px;
+}
+/* Container Fix */
+.containerFix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+* html .containerFix
+{
+	height: 1%;
+}
+.inputRow
+{
+	clear: both;
+	margin: 5px 0;
+}
+.inputRow .inputName
+{
+	color:#444;
+	font-size:16px;
+	font-weight:normal;
+	line-height:42px;
+	padding-right:10px;
+	text-align:right;
+	width:140px;
+	float:left;
+}
+.inputRow .inputValue 
+{
+	float:left;
+	width:200px;
+}
+.inputRow .inputValue input, .inputRow .inputValue textarea 
+{
+	width:99%;
+}
+input.txtInput, textarea.txtInput
+{
+	padding:8px;
+	border:1px solid #ddd;
+	font-size:18px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+input.straightRightCorner, textarea.straightRightCorner
+{
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright: 0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright: 0px;
+}
+input.selected, textarea.selected
+{
+	border:1px solid #777;
+}
+.inputTipContainer
+{
+	border:1px solid #777;
+	background:#ffffee url('../Media/tip.gif') no-repeat 10px 15px;
+	color:#333;
+	display:none;
+	position:absolute;
+	padding:8px;
+	/* Internet Explorer 7 fix */
+	#padding-bottom:7px;
+	font-size:12px;
+	line-height:22px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright: 5px;	
+	width:250px;
+	padding-left:30px;
+}
+.badInputTipContainer 
+{
+	border:1px solid #900;
+	color:#600;
+	font-weight:bold;
+	background:#fee url('../Media/error.png') no-repeat 10px 15px;
+}
+.goodInputTipContainer 
+{
+	color:#060;
+	border:1px solid #090;
+	background:#efe url('../Media/check.png') no-repeat 10px 15px;
+}
